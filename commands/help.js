@@ -10,7 +10,8 @@ module.exports = {
         .setTitle('Help - Minecraft Server Checker')
         .setColor(0x3424D8)
         .addFields(
-            { name: 'Info about a Minecraft Server', value:'/server' },
+            { name: 'Info about a Minecraft JAVA Server', value:'/java' },
+            { name: 'Info about a Minecraft BEDROCK Server', value:'/bedrock' },
             { name: 'Author', value: '/author - shows the development team of this bot', inline: true },
             { name: 'Version', value: '/version - shows the current version', inline: true },
             { name: 'Example', value: '/example - shows an example of the /server command', inline: true },
